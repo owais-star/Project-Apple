@@ -1,0 +1,192 @@
+*,
+/* *::before,
+*::after{ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;    
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 4.4rem;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    background: blur(2rem) ;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opasity .5s;
+}
+.nav-item:hover{
+    opacity: .7;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/icons/header/apple.svg) center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/icons/header/search.svg) center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url(images/icons/header/bag.svg) center no-repeat;
+}
+div.container1{
+    margin-top: 4.4rem;
+    height: 4.4rem;
+    width: 100%;
+    background-color: rgba(16, 93, 207, 0.8);
+}
+.covid1{
+    font-size: 1.4rem;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+div.shop{
+    height: 4.4rem;
+    width: 100%;
+    background-color: rgba(241, 244, 248, 0.8);
+}
+.shop-online{
+    font-size: 1.2rem;
+    color: rgb(95, 93, 93);
+    text-align: center;   
+}
+a.top2:hover{
+    border-bottom: 5px solid #fff;
+}
+.iphone-12{
+    background: url(images/heroes/iphone_12_us__fo0stbby242m_large.jpg);
+    margin-top: 0;
+}
+.hero{
+    height: 55rem;
+    background-size: auto 63rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid#fff;
+    border-bottom: .6rem solid#fff ;
+}
+.iphone-12{
+    border-top: none;
+}
+.title{
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 100;
+
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.7mm;
+}
+.sub-heading{
+    font-size: 3rem;
+    margin-top: .6rem;
+    letter-spacing: 0mm;
+    font-weight: 200;
+}
+
+.title-price{
+    font-size: 1.7rem;
+    letter-spacing: 0mm;
+    margin-top: 2rem;
+    /* color: rgba(121, 120, 120, 0.8); */
+    color: #888;
+}
+.cta{
+    text-align: center;
+
+}
+.cta-links{
+    color: #368ace;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
+.cta-links:nth-child(2){
+    margin-left: 2.6rem;
+}
+.cta-links:hover{
+    border-bottom: 2px solid #368ace;
+}
+.iphone-12-pro{
+    background: url(images/heroes/iphone_12_pro_us__e5oyysg4k0ya_large.jpg);
+    background-position: center;
+}
+.title-heading1{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -1mm;
+    color: #fff;
+    font-weight: lighter;
+}
+.sub-heading1{
+    font-size: 3rem;
+    margin-top: .6rem;
+    letter-spacing: 0mm;
+    font-weight: 200;
+    color: #fff;
+}
+
+.title-price1{
+    font-size: 1.7rem;
+    letter-spacing: 0mm;
+    margin-top: 2rem;
+    /* color: rgba(121, 120, 120, 0.8); */
+    color: #888;
+}
+.ipad{
+    background: url(images/heroes/hero__dvsxv8smkkgi_large\ \(1\).jpg);
+    background-position: center;   
+}
+.ratial-equity{
+    background:url(images/promos/racial-equity-and-justice/promo_reji__lj3lxa1vxgyu_large.jpg) center;
+}
+.cube{
+    height: 55rem;
+    width: 49%;
+    border-top: .6rem solid#fff;
+    border-bottom: .6rem solid#fff ;
+    border-left: .6rem solid#fff ;
+    border-right: .6rem solid#fff ;
+    display: inline-table;
+}
+.watch6{
+    background: url(images/promos/watch-black-unity-collection/promo_watch_black_unity_collection__glt5v0ra46q2_large.jpg) center no-repeat;
+}
